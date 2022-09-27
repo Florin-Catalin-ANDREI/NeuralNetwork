@@ -10,7 +10,7 @@ generating another vector as output (as an answer) using a network of neurons an
   There must be a connection between the input vectors the output vectors
 ( a function   **f : A -> B**   where **A** is the set of input vectors and **B** is the set of output vectors.
 
-  Then the algorithm calculates a function **g : A -> B**, which approximates the function **f : A -> B**)
+  Then the algorithm finds a function **g : A -> B**, which approximates the function **f : A -> B**)
 	
    This is done in 2 steps:
 	 
@@ -18,11 +18,8 @@ generating another vector as output (as an answer) using a network of neurons an
 
 	- We give the algorithm a finite number of pairs of vectors (input vector and output vector)
 
-	- Based on them, the algorithm adjusts its parameters( weights and biases) to approximate the function **f**
-
-	 - After training the algotithm "becomes" the  function **g : A -> B** that  approximate  function **f : A -> B**
-
-	 - We can say that the algorithm "learns" what the function f does based on samples.
+	- Based on them, the algorithm adjusts the parameters of **g** function ( weights and biases) to approximate the function **f**.
+We can say that the **g** function "learns" to do what the function **f** does based on samples.
 			
 - step 2.  - Recognition step:
 
@@ -37,7 +34,7 @@ In this application, I use the **MINIST** database as function **f : A -> B**. T
    To import MNIST database I use the **library mnist_reader_less.hpp**. This import is done by the function
  **read_dataset()**, belonging to this library. This library can be downloaded from here: https://github.com/wichtounet/mnist/blob/master/README.rst . It was created by **Baptiste Wicht**: https://github.com/wichtounet
  
- As a source of documentation I used **Neural Networks and Deep Learning** - Michael Nielsen
+ As a source of documentation I mainly used the book **Neural Networks and Deep Learning** - Michael Nielsen
 
  
  Algorithm structure:
