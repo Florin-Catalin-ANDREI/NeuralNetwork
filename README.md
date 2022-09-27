@@ -17,22 +17,22 @@ generating another vector as output (as an answer).
 
 	- Based on them, the algorithm adjusts its parameters( weights and biases) to approximate the function **f**
 
-	 -After training the algotithm "becomes" the  function **g : A -> B** that  approximate  function **f : A -> B**
+	 - After training the algotithm "becomes" the  function **g : A -> B** that  approximate  function **f : A -> B**
 
-	 -We can say that the algorithm "learns" what the function f does based on samples.
+	 - We can say that the algorithm "learns" what the function f does based on samples.
 			
 - step 2.  - Recognition step:
 
 	 -We give the algorithm only input vectors and the algoritm calculate what the output vector should be
  
-In this application, I use the **MINIST** database as function f : A -> B. This database is a collection
+In this application, I use the **MINIST** database as function **f : A -> B**. This database is a collection
  of 70,000 handwritten digits.
  
    More details about the **MNIST** database can be found here:https://en.wikipedia.org/wiki/MNIST_database
    The **MNIST** database can be downloaded from here: http://yann.lecun.com/exdb/mnist/
  
    To import MNIST database I use the **library mnist_reader_less.hpp**. This import is done by the function
- **read_dataset()**, belonging to this library. This library can be downloaded from here: https://github.com/wichtounet/mnist/blob/master/README.rst . It was created by **Baptiste Wicht:https**: https://github.com/wichtounet
+ **read_dataset()**, belonging to this library. This library can be downloaded from here: https://github.com/wichtounet/mnist/blob/master/README.rst . It was created by **Baptiste Wicht**: https://github.com/wichtounet
  
  As a source of documentation I used **Neural Networks and Deep Learning** - Michael Nielsen
 
