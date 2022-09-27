@@ -46,11 +46,11 @@ In this application, I use the **MINIST** database as function **f : A -> B**. T
  - NeuralNetwork.cpp: NeuralNetwork class implementation
            (NeuralNetwork class is the algorithm itself)
  - Source.cpp -> It contains the functions:
-	- getTrainingMinibatch              
-	- getPictureFromTrainingMNISTset     
-	- getPictureFromTestMNISTset   
+	- getTrainingMinibatch()              
+	- getPictureFromTrainingMNISTset()     
+	- getPictureFromTestMNISTset()   
 	These first three functions provide the connection between the Neural Network and the MNIST database
-	- VisualizationOfNMIST: for a visual test of the algorithm
+	- VisualizationOfNMIST(): for a visual test of the algorithm
 	- main() function
 	
 - As an activation function, I used the **Sigmoid Function**
