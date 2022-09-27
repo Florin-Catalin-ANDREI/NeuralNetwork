@@ -1,8 +1,11 @@
 # NeuralNetwork
 ## Personal Project
 
+
+  ### This project is a **C++** implementation of **Stochastic Gradient Descent** for a **Neural Network**
+  
   As a general idea, this application takes a vector and tries to recognize what it represents,
-generating another vector as output (as an answer).
+generating another vector as output (as an answer) using a network of neurons and weights.
 
   There must be a connection between the input vectors the output vectors
 ( a function   **f : A -> B**   where **A** is the set of input vectors and **B** is the set of output vectors.
@@ -49,3 +52,8 @@ In this application, I use the **MINIST** database as function **f : A -> B**. T
 	These first three functions provide the connection between the Neural Network and the MNIST database
 	- VisualizationOfNMIST: for a visual test of the algorithm
 	- main() function
+	
+- As an activation function, I used the **Sigmoid Function**
+- As a cost function I used the **Quadratic Function**
+
+This is a **basic implementation** of the **Stochastic Gradient Descent** algorithm. Other features can be added to improve network performance.
