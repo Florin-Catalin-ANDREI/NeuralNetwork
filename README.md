@@ -7,7 +7,7 @@ generating another vector as output (as an answer).
   There must be a connection between the input vectors the output vectors
 ( a function   **f : A -> B**   where **A** is the set of input vectors and **B** is the set of output vectors.
 
-  Tthen the algorithm calculates a function **g : A -> B**, which approximates the function **f : A -> B**)
+  Then the algorithm calculates a function **g : A -> B**, which approximates the function **f : A -> B**)
 	
    This is done in 2 steps:
 	 
