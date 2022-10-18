@@ -7,8 +7,8 @@
   As a general idea, this application takes a vector and tries to recognize what it represents,
 generating another vector as output (as an answer) using a network of neurons and weights.
 
-  There must be a connection between the input vectors the output vectors
-( a function   **f : A -> B**   where **A** is the set of input vectors and **B** is the set of output vectors.
+  There must be a connection between the input vectors and the output vectors
+( as a function   **f : A -> B**   where **A** is the set of input vectors and **B** is the set of output vectors.
 
   Then the algorithm finds a function **g : A -> B**, which approximates the function **f : A -> B**)
 	
